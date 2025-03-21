@@ -34,7 +34,7 @@ double N(double z) {
     return n;
 }
 
-// Black-Scholes call option pricing formula
+// Black-Scholes EU call option pricing formula
 double _bs_call(double S, double K, double r, double t, double sigma) {
     double time_sqrt = sqrt(t);
     double d1 = (log(S / K) + r * t) / (sigma * time_sqrt) + 0.5 * sigma * time_sqrt;
