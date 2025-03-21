@@ -47,7 +47,7 @@ import bs
 s = 163.80      # Spot price
 k = 90          # Strike price
 r = 0.0016      # Risk-free rate
-t = 80/365      # Time to expiration (60 days)
+t = 80/365      # Time to expiration 
 sigma = 0.15    # Volatility
 
 bs.bs_call(s, k, r, t, sigma)
@@ -55,3 +55,7 @@ bs.bs_call(s, k, r, t, sigma)
 ##### You should obtain:
 
 73.83155611038603
+
+---
+
+I'm doing some more work on making this more user friendly. 
