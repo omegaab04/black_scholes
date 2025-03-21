@@ -29,7 +29,18 @@ pip install -e .
 
 ## Usage Example
 
+##### Activate Python in your terminal:
+```sh
+python
+```
+##### or
+```sh
+python 3
+```
+##### then
+
 ```python
+
 import bs
 
 s = 163.80      # Spot price
