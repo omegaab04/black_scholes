@@ -44,12 +44,12 @@ python 3
 import bs
 
 s = 163.80      # Spot price
-k = 90 # Strike price
-r = 0.0016       # Risk-free rate
+k = 90          # Strike price
+r = 0.0016      # Risk-free rate
 t = 80/365      # Time to expiration (60 days)
 sigma = 0.15    # Volatility
 
-return bs.bs_call(s, k, r, t, sigma)
+bs.bs_call(s, k, r, t, sigma)
 ```
 ##### You should obtain:
 
