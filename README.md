@@ -1,26 +1,26 @@
-##### Here, I'm using the **Black-Scholes model** to value a European Call Option... with a twist.
+Here, I'm using the **Black-Scholes model** to value a European Call Option... with a twist.
 
-##### I have written the magic in C, but you can call it from Python directly. Just enter the relevant parameters that exist in the model.
+### I have written the magic in C, but you can call it from Python directly. Just enter the relevant parameters that exist in the model.
 ---
-## Play around with it:
+##### Play around with it:
 
-### **Clone Repo**
+##### **Clone Repo**
 ```sh
 git clone https://github.com/your-username/black_scholes.git
 cd black_scholes
 ```
 
-### **Dependencies**
+##### **Dependencies**
 ```sh
 pip install --upgrade setuptools wheel
 ```
 
-### **C Extension**
+##### **C Extension**
 ```sh
 python setup.py build_ext --inplace
 ```
 
-### **Install the Package**
+##### **Install the Package**
 ```sh
 pip install -e .
 ```
